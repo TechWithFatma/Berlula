@@ -178,9 +178,12 @@ body {
     margin: 4px 0;
 }
 
-.book {
+.nail-container {
     background: #f8bdd9;
     padding: 10px;
+}
+
+.book {
     display: flex;
     justify-content: space-between;
 }
