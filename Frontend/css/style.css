@@ -33,18 +33,6 @@
 
 /* General Styles */
 
-
-/* @font-face {
-    font-family: "Edwardian Script ITC";
-    src: url("fonts/EdwardianScriptITC.woff2") format("woff2"), url("fonts/EdwardianScriptITC.woff") format("woff"), url("fonts/EdwardianScriptITC.ttf") format("truetype");
-} */
-
-
-/* 
-body {
-    font-family: "Edwardian Script ITC", cursive;
-} */
-
 body {
     /* font-family: "Great Vibes", cursive; */
     /* font-family: "Edwardian Script ITC", cursive; */
@@ -82,7 +70,7 @@ body {
 
 .list-items a:hover {
     content: '';
-    border-bottom: 2px solid var(--main-bg-color);
+    border-bottom: 2px solid var(--main-color);
     width: 30px;
     padding: 10px;
 }
@@ -135,11 +123,11 @@ body {
     color: #444;
 } */
 
-.wel {
+
+/* .wel {
     font-size: 1.5rem;
     color: #e44187;
-    /* text-align: center; */
-}
+} */
 
 
 /* .video-container {
