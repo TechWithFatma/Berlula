@@ -39,6 +39,8 @@ body {
     background-color: var(--bg-color);
     line-height: 1.6;
     color: #333;
+    width: 100vw;
+    height: 100vh;
 }
 
 .header {
@@ -138,9 +140,15 @@ body {
 
 .title-services {
     margin: 10px;
+    padding: 4px;
     font-size: 2.5rem;
     text-align: center;
 }
+
+
+/* .services {
+    background: #f8bdd9;
+} */
 
 .container-services {
     display: grid;
@@ -148,6 +156,16 @@ body {
     gap: 5px;
     padding: 30px;
 }
+
+
+/* .hair {
+    background: #f7d197;
+} */
+
+
+/* .massage {
+    margin: 10px;
+} */
 
 .container-services img {
     width: 280px;
@@ -158,4 +176,21 @@ body {
 .container-services h3 {
     text-align: center;
     margin: 4px 0;
+}
+
+.book {
+    background: #f8bdd9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book button {
+    background: #f6329d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 3px;
 }
