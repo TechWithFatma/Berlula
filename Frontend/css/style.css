@@ -167,6 +167,10 @@ body {
     margin: 10px;
 } */
 
+.services-list {
+    width: 100%;
+}
+
 .container-services img {
     width: 280px;
     height: 200px;
@@ -181,6 +185,10 @@ body {
 .nail-container {
     background: #f8bdd9;
     padding: 10px;
+}
+
+.massage {
+    background: #f8bdd9;
 }
 
 .book {
