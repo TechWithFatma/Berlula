@@ -7,6 +7,7 @@
 </head>
 <link rel="stylesheet" href="css/style.css">
 
+
 <body>
     <header class="header">
         <h1 class="styled-text">Berlula Beauty Salon</h1>
@@ -148,12 +149,63 @@
 
     <!-- /*=====  End of Section our services  ======*/ -->
 
+    <!-- 
+/*=============================================
+=            Section Gallery            =
+=============================================*/ -->
+
+    <section class="gallery1">
+        <div class="gallery">
+
+            <div class="slide">
+
+                <div class="item" style="background-image: url(https://media.istockphoto.com/id/1175433234/photo/young-woman-enjoying-therapeutic-neck-massage-in-spa.jpg?b=1&s=612x612&w=0&k=20&c=uoyA18qI27US5ICGtxg6uyFzrXnFNC-q8dKcpMiF5KU=);">
+
+                </div>
+                <div class="item" style="background-image: url(https://i.pinimg.com/474x/bc/94/08/bc940896f2060d181e87690c3326c01b.jpg);">
+
+                </div>
+                <div class="item" style="background-image: url(https://i.pinimg.com/474x/8c/45/f1/8c45f1fc00d2c2dc33c661f7745201b3.jpg);">
+
+                </div>
+                <div class="item" style="background-image: url(https://i.pinimg.com/474x/70/e8/84/70e8842c746f2324de6cc999635af132.jpg);">
+
+                </div>
+                <div class="item" style="background-image: url(https://i.pinimg.com/474x/19/8b/f2/198bf22972c6852d1d29550f9647d133.jpg);">
+
+                </div>
+                <div class="item" style="background-image: url(https://i.pinimg.com/474x/e6/55/64/e6556481149aab823be8683d0c98358f.jpg);">
+
+                </div>
+
+            </div>
 
 
-    <!-- <h1 class="text-stroke">Brush Stroke Text</h1>
+            <div class="slider-nav">
+                <a class="prev" href="#"></a>
+                <a class="next" href="#"></a>
+            </div>
+        </div>
+    </section>
 
 
-    <h1 class="styled-text">إنما العيش عيش الآخرة</h1> -->
+
+    <!-- /*=====  End of Section Gallery  ======*/ -->
+
+    <script>
+        document.querySelector('.next').addEventListener('click', function(event) {
+            event.preventDefault();
+            let items = document.querySelectorAll('.item');
+            document.querySelector('.slide').appendChild(items[0]);
+        });
+
+        document.querySelector('.prev').addEventListener('click', function(event) {
+            event.preventDefault();
+            let items = document.querySelectorAll('.item');
+            document.querySelector('.slide').prepend(items[items.length - 1]);
+        });
+    </script>
+
 
 
 </body>
