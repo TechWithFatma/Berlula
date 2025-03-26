@@ -1,189 +1,193 @@
-/* CSS Reset */
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* root variables */
-
-:root {
-    --primary-color: #f2f2f2;
-    --secondary-color: #333;
-    --font-color: #333;
-    --font-color: #403117;
-    --background-color: #f2f2f2;
-    --heading-color: #333;
-    --text-color: #333;
-    --link-color: #333;
-    --bg-color: #fcdee8;
-    --hover-color: #f6bcd7;
-    --border-color: #f6329d;
-    --heading-font: 'Poppins', sans-serif;
-    --body-font: 'Poppins', sans-serif;
-    --small-font: 'Poppins', sans-serif;
-    --nav-font: 'Poppins', sans-serif;
-    --main-color: #e44187;
-    --main-bg-color: #f7d197;
-}
-
-
-/* General Styles */
-
-body {
-    /* font-family: "Great Vibes", cursive; */
-    /* font-family: "Edwardian Script ITC", cursive; */
-    background-color: var(--bg-color);
-    line-height: 1.6;
-    color: #333;
-    width: 100vw;
-    height: 100vh;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 3px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.header h1 {
-    font-family: "Great Vibes", cursive;
-}
-
-.nav-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.list-items {
-    list-style: none;
-    padding: 10px;
-    margin: 10px;
-}
-
-.list-items a {
-    text-decoration: none;
-    color: var(--link-color);
-}
-
-.list-items a:hover {
-    content: '';
-    border-bottom: 2px solid var(--main-color);
-    width: 30px;
-    padding: 10px;
-}
-
-
-/* #home {
-    background: url('https://i.pinimg.com/736x/ed/b8/3f/edb83ff53f66f6168a2b184651884a86.jpg') no-repeat left/ cover;
-    height: 100vh;
-    width: 100%;
-} */
-
-.hero {
-    background: url('https://i.pinimg.com/736x/ed/b8/3f/edb83ff53f66f6168a2b184651884a86.jpg') no-repeat left/ cover;
-    height: 100vh;
-    width: 100%;
-}
-
-.content {
-    position: relative;
-    top: 20%;
-    left: 10%;
-    font-size: 1.5rem;
-    word-spacing: 1.5;
-}
-
-.wel {
-    position: relative;
-    left: -5%;
-    font-size: 1.5rem;
-    letter-spacing: 1.9;
-    color: #333;
-}
-
-.ber {
-    font-size: 2.5rem;
-    letter-spacing: 2.5;
-    word-spacing: 3.5;
-    color: #f6329d;
-}
-
-.about {
-    text-align: center;
-    font-size: 3.5rem;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.about::after {
-    content: '';
-    border-bottom: 3px solid var(--main-color);
-    padding: 10px;
-    width: 30px;
-}
-
-.grid-about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 40px;
-}
-
-.about-container {
-    width: 100%;
-    object-fit: cover;
-}
-
-.title-services {
-    margin: 10px;
-    padding: 4px;
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-
-/* .services {
-    background: #f8bdd9;
-} */
-
-.container-services {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 30px;
-}
-
-.services-list {
-    background: #f8bdd9;
-}
-
-.container-services img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.container-services h3 {
-    text-align: center;
-    margin: 4px 0;
-}
-
-.book {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.book button {
-    background: #f6329d;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 3px;
-}
+        /* CSS Reset */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* root variables */
+        
+         :root {
+            --primary-color: #f2f2f2;
+            --secondary-color: #333;
+            --font-color: #333;
+            --font-color: #403117;
+            --background-color: #f2f2f2;
+            --heading-color: #333;
+            --text-color: #333;
+            --link-color: #333;
+            --bg-color: #fcdee8;
+            --hover-color: #f6bcd7;
+            --border-color: #f6329d;
+            --heading-font: 'Poppins', sans-serif;
+            --body-font: 'Poppins', sans-serif;
+            --small-font: 'Poppins', sans-serif;
+            --nav-font: 'Poppins', sans-serif;
+            --main-color: #e44187;
+            --main-bg-color: #f7d197;
+        }
+        /* General Styles */
+        
+        body {
+            /* font-family: "Great Vibes", cursive; */
+            /* font-family: "Edwardian Script ITC", cursive; */
+            background-color: var(--bg-color);
+            line-height: 1.6;
+            color: #333;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 3px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header h1 {
+            font-family: "Great Vibes", cursive;
+        }
+        
+        .nav-list {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .list-items {
+            list-style: none;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        .list-items a {
+            text-decoration: none;
+            color: var(--link-color);
+        }
+        
+        .list-items a:hover {
+            content: '';
+            border-bottom: 2px solid var(--main-color);
+            width: 30px;
+            padding: 10px;
+        }
+        
+        .hero {
+            background: url('https://i.pinimg.com/736x/ed/b8/3f/edb83ff53f66f6168a2b184651884a86.jpg') no-repeat left/ cover;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .content {
+            position: relative;
+            top: 20%;
+            left: 10%;
+            font-size: 1.5rem;
+            word-spacing: 1.5;
+        }
+        
+        .wel {
+            position: relative;
+            left: -5%;
+            font-size: 1.5rem;
+            letter-spacing: 1.9;
+            color: #333;
+        }
+        
+        .ber {
+            font-size: 2.5rem;
+            letter-spacing: 2.5;
+            word-spacing: 3.5;
+            color: #f6329d;
+        }
+        
+        .about {
+            /* text-align: center;
+            font-size: 3.5rem;
+            position: relative;
+            font-family: 'Courier New', Courier, monospace; */
+            margin: 10px;
+            padding: 4px;
+            font-size: 2.5rem;
+            text-align: center;
+            position: relative;
+        }
+        
+        .about::after {
+            content: '';
+            display: block;
+            width: 180px;
+            height: 4px;
+            background-color: var(--main-color);
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+        
+        .grid-about {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 40px;
+        }
+        
+        .about-container {
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .title-services {
+            margin: 10px;
+            padding: 4px;
+            font-size: 2.5rem;
+            text-align: center;
+            position: relative;
+        }
+        
+        .title-services::after {
+            content: '';
+            display: block;
+            width: 180px;
+            height: 4px;
+            background-color: var(--main-color);
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+        
+        .container-services {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 30px;
+        }
+        
+        .services-list {
+            background: #f8bdd9;
+        }
+        
+        .container-services img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .container-services h3 {
+            text-align: center;
+            margin: 4px 0;
+        }
+        
+        .book {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        
+        .book button {
+            background: #f6329d;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 3px;
+        }
