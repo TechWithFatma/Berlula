@@ -136,6 +136,22 @@
             object-fit: cover;
         }
         
+        .ser-offer {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .explore-more {
+            margin-top: 10px;
+        }
+        
+        .explore {
+            text-decoration: none;
+            background: dodgerblue;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        
         .title-services {
             margin: 10px;
             padding: 4px;
@@ -190,4 +206,18 @@
             font-size: 1.2rem;
             cursor: pointer;
             border-radius: 3px;
+        }
+        /* .text-stroke {
+            font-size: 60px;
+            background: linear-gradient(90deg, red 10%, orange 25%, purple 50%, orange 75%, red 90%);
+            background-size: cover;
+        } */
+        
+        .styled-text {
+            font-size: 50px;
+            font-weight: bold;
+            color: #3d5823;
+            /* Text color */
+            text-shadow: -3px -3px 0 #b3c49b, 3px -3px 0 #b3c49b, -3px 3px 0 #b3c49b, 3px 3px 0 #b3c49b;
+            text-align: center;
         }
