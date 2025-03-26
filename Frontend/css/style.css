@@ -169,6 +169,8 @@ body {
 
 .services-list {
     width: 100%;
+    background: #f8bdd9;
+    ;
 }
 
 .container-services img {
@@ -182,14 +184,16 @@ body {
     margin: 4px 0;
 }
 
-.nail-container {
+
+/* .nail-container {
     background: #f8bdd9;
     padding: 10px;
-}
+} */
 
-.massage {
+
+/* .massage {
     background: #f8bdd9;
-}
+} */
 
 .book {
     display: flex;
